@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get('AWS_DB_NAME'),
         'USER': os.environ.get('AWS_DB_USER'),
         'PASSWORD': os.environ.get('AWS_DB_PASSWORD'),
